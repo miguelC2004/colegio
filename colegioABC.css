@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    text-align: center;
+    background-color:rgb(64, 0, 255);;
+    color: #fff;
+    padding: 1em;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(64, 0, 255);;
+    padding: 1em;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1em;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 2em);
+  }
+  
+  .container {
+    width: 80%;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgb(64, 0, 255);
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+  }
+  
+  form label {
+    margin-bottom: 0.5em;
+  }
+  
+  form input[type="text"], form input[type="email"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid rgb(64, 0, 255);
+    border-radius: 0.5em;
+    font-size: 1em;
+  }
+  
+  form input[type="submit"] {
+    background-color: rgb(64, 0, 255);;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #fff;
+    color:rgb(64, 0, 255);;
+  }
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #000000;
+}
+
+footer {
+    background-color: #0c0fc7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
